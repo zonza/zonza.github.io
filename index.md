@@ -7,8 +7,11 @@ published: true
 
 Programmatic access to many of ZONZAs features is possible via our public API.
 This allows clients to integrate ZONZA with other systems and perform reporting
-tasks for example. `http://api.zonza.tv` is a RESTful JSON-based API. Access is
-controlled using your ZONZA username and API token. It currently supports:
+tasks for example.
+
+`http://api.zonza.tv` is a RESTful JSON-based API. Access is
+controlled using your ZONZA username and API token. As of Jan 2015, it
+currently supports:
 
 ### Items:
 * Upload (non-accelerated, chunked)
@@ -20,7 +23,7 @@ controlled using your ZONZA username and API token. It currently supports:
 * Access to supporting files
 * Still generation and view (full frame captures from video or pages from
   presentations etc.)
-* Thumbnail geniieration and view (including custom thumbnails, e.g. For
+* Thumbnail generation and view (including custom thumbnails, e.g. For
   setting preview on a ZIP)
 * Transcoding to
 * Export to FTP location
@@ -84,12 +87,12 @@ need to have a SAML Identity Provider (IDP) already in place.
 #### We provide:
 * Our SAML metadata (always located at
   `https://<client_prefix.zonza.tv/saml2/metadata`,
-  [example]()https://zonza.tv/saml2/metadata). This should be configured into
+  [example](https://zonza.tv/saml2/metadata). This should be configured into
   the client's IDP, preferably using   the URL (since the content can change
   over time)
 
 #### You provide:
-* Their corresponding SAML metadata file – This will be an .xml file that the
+* Their corresponding SAML metadata file – This will be an `.xml` file that the
   client can download/copy from their IDP
 * Confirmation as to what default user group(s) authenticated users get access
   to and what their default ingest group should be. We can also dynamically set
@@ -102,9 +105,9 @@ need to have a SAML Identity Provider (IDP) already in place.
   bypass SAML and authenticate via the regular ZONZA login page e.g. this is
   typically required if the ZONZA instance is going to be accessed by users
   that do not not have a
-  https://<client_prefix>.zonza.tv/authentication/login/nosso/ SAML login. For
+  `https://<client_prefix>.zonza.tv/authentication/login/nosso/` SAML login. For
   these types of examples clients typically create a NOSSO link on their IDP
-  landing page e.g.
+  landing page
 * Option to send an email to new users (custom welcome message and title)
 
 
@@ -113,5 +116,8 @@ need to have a SAML Identity Provider (IDP) already in place.
 ZONZA makes use of many Open Source libraries and components and often
 contributes improvements back to the community. We also selectively publish
 projects created by our own team. All of our repositories can be browsed at
+[{{site.github.owner_url}}]()
 
-{{site.github.owner_url}}
+{% for repo in {{site.github.public_repositories}} %}
+* {{name}} - {{description}}
+{% endfor %}
