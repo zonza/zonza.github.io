@@ -119,5 +119,5 @@ projects created by our own team. All of our repositories can be browsed at
 [{{site.github.owner_url}}]()
 
 {% for repo in {{site.github.public_repositories}} %}
-* {{repo.name}} - {{repo.description}}
+* **[{{repo.name}}]({{repo.html_url}})** - {{repo.description}}
 {% endfor %}
