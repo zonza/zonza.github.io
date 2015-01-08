@@ -39,8 +39,8 @@ the Adobe XMP protocol.
 
 Once Ad-ID has been configured for a client site, we support:
 
-* Retrieval of metadata from the Ad-ID service into ZONZA given an Ad-ID
-  identifier
+* Automatic retrieval of metadata from the Ad-ID service into ZONZA once an
+  asset has been linked to an Ad-ID identifier
 * Search of assets in ZONZA using the Ad-ID identifier and metadata
 * Automatic updating of metadata in ZONZA if it changes in the Ad-ID portal
 

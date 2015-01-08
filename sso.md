@@ -80,6 +80,10 @@ need to have a SAML Identity Provider (IDP) already in place.
   `https://<client_prefix>.zonza.tv/authentication/login/nosso/`.
 * Option to send an email to new users (custom welcome message and title)
 
+To get up and running, configure your IDP with our metadata and provide your
+Account Director with the details of your metadata and specified configuration
+options.
+
 ### Dynamic Groups
 
 TODO

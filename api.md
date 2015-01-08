@@ -14,17 +14,38 @@ published: true
 <li>Publish showcased assets on a third-party CMS</li>
 <li>Bulk-update metadata for specific assets</li>
 </ul>
-<p>See example code at <a href="https://github.com/zonza/zonza-api-examples">https://github.com/zonza/zonza-api-examples</a></p>
 </div>
 
 Programmatic access to many of ZONZAs features is possible via our public API.
-This allows clients to integrate ZONZA with other systems and perform reporting
-tasks for example.
+This allows clients to integrate ZONZA with other systems or perform reporting
+tasks for example. `http://api.zonza.tv` is a RESTful JSON-based API and thus
+can be used from any programming language or any HTTP client (including
+browser extensions such as [Postman](http://www.getpostman.com/)).
 
-`http://api.zonza.tv` is a RESTful JSON-based API. Access is controlled using
-your ZONZA username and API token (visible within ZONZA under your user
-profile page).
+### Great, how do I get started?
 
+Access is controlled using your ZONZA username and API token which is visible
+on your ZONZA user profile page. Your account must also have permission to
+make API calls so if you do not see your API token then please contact your
+Account Director. Once you've got your credentials, simply start making HTTP
+requests using the appropriate headers, for example:
+
+    $ curl \
+        -H "Bork-Token: <YOUR_TOKEN>" \
+        -H "Bork-Username: <YOUR_USERNAME>" \
+        http://api.zonza.tv:8080/v0/item
+    {
+      "hits": "1",
+      "item": [
+          {
+            "id": "VX-336335",
+            "url": "http://api.zonza.tv:8080/v0/item/VX-336335"
+          }
+        ]
+    }
+
+Check out example code at
+[https://github.com/zonza/zonza-api-examples](https://github.com/zonza/zonza-api-examples)
 Full documentation is available at
 [http://api.zonza.tv:8080/docs/](http://api.zonza.tv:8080/docs/) (password
 protected). Contact your Account Director for credentials.
