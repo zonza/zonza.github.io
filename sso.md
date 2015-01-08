@@ -5,7 +5,7 @@ published: true
 
 ## <i class="fa fa-users"></i> SSO Integration
 
-ZONZA has the ability to integrate with third-party authentication solution
+ZONZA has the ability to integrate with a third-party authentication solution
 which can simplify user management and enhance the end-user experience.
 
 #### Terminology
@@ -56,7 +56,7 @@ need to have a SAML Identity Provider (IDP) already in place.
 
 #### We provide:
 * Our SAML metadata (always located at
-  `https://<client_prefix.zonza.tv/saml2/metadata`,
+  `https://<client_prefix>.zonza.tv/saml2/metadata`,
   [example](https://zonza.tv/saml2/metadata). This should be configured into
   the client's IDP, preferably using   the URL (since the content can change
   over time)

@@ -14,15 +14,22 @@ published: true
 <li>Publish showcased assets on a third-party CMS</li>
 <li>Bulk-update metadata for specific assets</li>
 </ul>
+<p>See example code at <a href="https://github.com/zonza/zonza-api-examples">https://github.com/zonza/zonza-api-examples</a></p>
 </div>
 
 Programmatic access to many of ZONZAs features is possible via our public API.
 This allows clients to integrate ZONZA with other systems and perform reporting
 tasks for example.
 
-`http://api.zonza.tv` is a RESTful JSON-based API. Access is
-controlled using your ZONZA username and API token (visible within ZONZA under your user profile page). As of Jan 2015, it
-currently supports:
+`http://api.zonza.tv` is a RESTful JSON-based API. Access is controlled using
+your ZONZA username and API token (visible within ZONZA under your user
+profile page).
+
+Full documentation is available at
+[http://api.zonza.tv:8080/docs/](http://api.zonza.tv:8080/docs/) (password
+protected). Contact your Account Director for credentials.
+
+As of Jan 2015, the API supports:
 
 ### Items:
 * Upload (non-accelerated, chunked)
@@ -48,7 +55,3 @@ currently supports:
 * Create and view collections
 * Deleting collections
 * Item addition and removal
-
-Full documentation is available at
-[http://api.zonza.tv:8080/docs/](http://api.zonza.tv:8080/docs/) (password protected).
-Contact your Account Director for credentials.
