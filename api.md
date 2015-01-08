@@ -4,8 +4,7 @@ published: true
 ---
 
 
-<!--## <i class="fa fa-cloud"></i> Public API-->
-<h2 id="public-api"><i class="fa fa-cloud"></i> Public API</h2>
+<h2 id="public-api"><i class="fa fa-code"></i> Public API</h2>
 
 <div class="pull-right">
 <h3>Recent Use-cases</h3>
