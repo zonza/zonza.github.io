@@ -5,7 +5,7 @@ published: true
 
 ## <i class="fa fa-users"></i> SSO Integration
 
-ZONZA has the ability to integrate with third-party authentications solution
+ZONZA has the ability to integrate with third-party authentication solution
 which can simplify user management and enhance the end-user experience.
 
 #### Terminology
