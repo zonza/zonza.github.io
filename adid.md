@@ -37,6 +37,13 @@ the Adobe XMP protocol.
 
 ### How does ZONZA support Ad-ID?
 
+<div class="pull-right">
+<h3>Read the press release</h3>
+<a href="http://www.ad-id.org/news-announcements/zonza-first-digital-asset-management-platform-integrate-ad-industry%E2%80%99s-ad-id">ZONZA Is first Digital Asset Managent Platform to Integrate Ad-ID Standard</a>
+<p>Sept 23, 2014</p>
+</p>
+</div>
+
 Once Ad-ID has been configured for a client site, we support:
 
 * Automatic retrieval of metadata from the Ad-ID service into ZONZA once an
@@ -44,3 +51,20 @@ Once Ad-ID has been configured for a client site, we support:
 * Search of assets in ZONZA using the Ad-ID identifier and metadata
 * Automatic updating of metadata in ZONZA if it changes in the Ad-ID portal
 
+### Cool, how do I get started?
+
+You must first have an Ad-ID account and have access to some codes. You can
+register for a new account at
+[http://app.ad-id.org/user/register](http://app.ad-id.org/user/register).
+
+In order to pull Ad-ID information into ZONZA, we’ll need to have you share
+your Ad-ID codes with an account we create specifically for ZONZA to access
+the data. We will also need to configure your site to enable support. Your
+account manager can tell you the account details and confirm that we have
+configured your site.
+
+If you log in to [http://app.ad-id.org](http://app.ad-id.org) with your
+existing account and share the desired codes/groups/prefixes with the account
+we give you then ZONZA will be able to retrieve them. You only need to grant
+Read-only access. You should be able to access your codes from ZONZA shortly
+afterwards.
