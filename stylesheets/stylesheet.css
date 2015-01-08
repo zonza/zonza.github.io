@@ -234,6 +234,17 @@ samp {
   font-size: 1em;
 }
 
+div.pull-right {
+  display: block;
+  width: 300px;
+  float:right;
+  margin: 0 0 10px 10px;
+  padding: 0px 10px 0 10px;
+  background-color: #f2f8fc;
+  border: solid 1px #dbe7f3;
+  border-radius: 5px;
+}
+
 /* Forms
    ========================================================================== */
 

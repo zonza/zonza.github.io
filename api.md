@@ -7,6 +7,16 @@ published: true
 <!--## <i class="fa fa-cloud"></i> Public API-->
 <h2 id="public-api"><i class="fa fa-cloud"></i> Public API</h2>
 
+<div class="pull-right">
+<h3>Recent Use-cases</h3>
+<ul>
+<li>Push product imagery to a Product Catalog (Hybris)</li>
+<li>Pull asset data into a SQL database for reporting</li>
+<li>Publish showcased assets on a third-party CMS</li>
+<li>Bulk-update metadata for specific assets</li>
+</ul>
+</div>
+
 Programmatic access to many of ZONZAs features is possible via our public API.
 This allows clients to integrate ZONZA with other systems and perform reporting
 tasks for example.

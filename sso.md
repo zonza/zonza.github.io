@@ -33,6 +33,15 @@ There are two options for user management in ZONZA:
    to remember another username and password since they can reuse the same
    credentials they use for their organizations' systems.
 
+<div class="pull-right">
+<h3>Live example</h3>
+<p><a href="http://greyworks.zonza.tv">greyworks.zonza.tv <i class="fa fa-external-link"></i></a></p>
+<p>Notice how you are immediately redirected to a third-party site which
+collects the user credentials. Upon authenticating with Grey, the user will be
+seamlessly redirected back to ZONZA with their account configured and logged
+in.</p>
+</div>
+
 We recommend exploring the SSO route if a client already manages users
 centrally since it means only managing users in one place and a single identity
 for users across their organization and ZONZA. There is also the option of
@@ -53,22 +62,24 @@ need to have a SAML Identity Provider (IDP) already in place.
   over time)
 
 #### You provide:
-* Their corresponding SAML metadata file – This will be an `.xml` file that the
-  client can download/copy from their IDP
+* Your corresponding SAML metadata file – This will be an `.xml` file that you
+  can download/copy from your IDP
 * Confirmation as to what default user group(s) authenticated users get access
   to and what their default ingest group should be. We can also dynamically set
-  this based on SAML attributes sent by the IDP
+  this based on SAML attributes sent by the IDP (See [Dynamic
+  Groups](#dynamic-groups))
 * Optional logout URL – This is the URL that end users are redirected to once
-  they click logout, this for example could be a client intranet
+  they click logout, this for example could be your intranet
 * Option to logout of everything or just ZONZA when the user hits the logout
   button
-* Option to allow NOSSO (No Single Sign On) login - This allows end users to
-  bypass SAML and authenticate via the regular ZONZA login page e.g. this is
+* Option to allow No-SSO (No Single Sign On) login - This allows end users to
+  bypass SSO and authenticate via the regular ZONZA login page e.g. this is
   typically required if the ZONZA instance is going to be accessed by users
-  that do not not have a
-  `https://<client_prefix>.zonza.tv/authentication/login/nosso/` SAML login. For
-  these types of examples clients typically create a NOSSO link on their IDP
-  landing page
+  that do not not have an SSO login (e.g. contractors). In these cases,
+  clients typically create a No-SSO link on their IDP landing page to
+  `https://<client_prefix>.zonza.tv/authentication/login/nosso/`.
 * Option to send an email to new users (custom welcome message and title)
 
+### Dynamic Groups
 
+TODO
