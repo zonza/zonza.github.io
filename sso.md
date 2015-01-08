@@ -3,50 +3,8 @@ layout: default
 published: true
 ---
 
+## <i class="fa fa-users"></i> SSO Integration
 
-<!--## <i class="fa fa-cloud"></i> Public API-->
-<h2 id="public-api"><i class="fa fa-cloud"></i> Public API</h2>
-
-Programmatic access to many of ZONZAs features is possible via our public API.
-This allows clients to integrate ZONZA with other systems and perform reporting
-tasks for example.
-
-`http://api.zonza.tv` is a RESTful JSON-based API. Access is
-controlled using your ZONZA username and API token (visible within ZONZA under your user profile page). As of Jan 2015, it
-currently supports:
-
-### Items:
-* Upload (non-accelerated, chunked)
-* Download (non-accelerated, chunked)
-* Metadata view and edit
-* Fulltext and field-level search (including negation, sorting and pagination)
-* Search faceting
-* Search by date ranges
-* Access to supporting files
-* Still generation and view (full frame captures from video or pages from
-  presentations etc.)
-* Thumbnail generation and view (including custom thumbnails, e.g. For
-  setting preview on a ZIP)
-* Transcoding to
-* Export to FTP location
-* Deletion of assets, versions, transcodes
-* Support for multiple item versions
-
-### Jobs:
-* Viewing the status of submitted ingests and other async tasks
-
-### Collections:
-* Create and view collections
-* Deleting collections
-* Item addition and removal
-
-Full documentation is available at [http://api.zonza.tv:8080/docs]()
-(password protected). Contact your Account Director for credentials.
-
-<!--## <i class="fa fa-users"></i> SSO Integration-->
-<h2 id="sso-integration"><i class="fa fa-users"></i> SSO Integration</h2>
-
-### Why would I want this?
 ZONZA has the ability to integrate with third-party authentications solution
 which can simplify user management and enhance the end-user experience.
 
@@ -114,15 +72,3 @@ need to have a SAML Identity Provider (IDP) already in place.
 * Option to send an email to new users (custom welcome message and title)
 
 
-<!--## <i class="fa fa-key"></i> Open Source-->
-<h2 id="open-source"><i class="fa fa-key"></i> Open Source</h2>
-
-
-ZONZA makes use of many Open Source libraries and components and often
-contributes improvements back to the community. We also selectively publish
-projects created by our own team. All of our repositories can be browsed at
-[{{site.github.owner_url}}]({{site.github.owner_url}})
-
-{% for repo in {{site.github.public_repositories}} %}
-* **[{{repo.name}}]({{repo.html_url}})** - {{repo.description}}
-{% endfor %}

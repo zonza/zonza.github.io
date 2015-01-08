@@ -740,6 +740,24 @@ ul {
   padding-left: 20px;
 }
 
+#homelinks {
+  font-size: 1.4em;
+  list-style: none;
+  display: block;
+  clear: both;
+}
+
+#homelinks li .fa {
+    display: block;
+    margin: auto;
+}
+
+#homelinks li {
+    display: inline-block;
+    float: left;
+    padding-right: 50px;
+}
+
 ol {
   list-style-position: inside;
   list-style: decimal;
