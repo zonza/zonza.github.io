@@ -49,5 +49,6 @@ currently supports:
 * Deleting collections
 * Item addition and removal
 
-Full documentation is available at [http://api.zonza.tv:8080/docs]()
-(password protected). Contact your Account Director for credentials.
+Full documentation is available at
+[http://api.zonza.tv:8080/docs/](http://api.zonza.tv:8080/docs/) (password protected).
+Contact your Account Director for credentials.
