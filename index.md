@@ -3,14 +3,16 @@ layout: default
 published: true
 ---
 
-## Public API
+
+<!--## <i class="fa fa-cloud"></i> Public API-->
+<h2 id="public-api"><i class="fa fa-cloud"></i> Public API</h2>
 
 Programmatic access to many of ZONZAs features is possible via our public API.
 This allows clients to integrate ZONZA with other systems and perform reporting
 tasks for example.
 
 `http://api.zonza.tv` is a RESTful JSON-based API. Access is
-controlled using your ZONZA username and API token. As of Jan 2015, it
+controlled using your ZONZA username and API token (visible within ZONZA under your user profile page). As of Jan 2015, it
 currently supports:
 
 ### Items:
@@ -41,7 +43,8 @@ currently supports:
 Full documentation is available at [http://api.zonza.tv:8080/docs]()
 (password protected). Contact your Account Director for credentials.
 
-## SSO Integration
+<!--## <i class="fa fa-users"></i> SSO Integration-->
+<h2 id="sso-integration"><i class="fa fa-users"></i> SSO Integration</h2>
 
 ### Why would I want this?
 ZONZA has the ability to integrate with third-party authentications solution
@@ -111,7 +114,9 @@ need to have a SAML Identity Provider (IDP) already in place.
 * Option to send an email to new users (custom welcome message and title)
 
 
-## Open Source
+<!--## <i class="fa fa-key"></i> Open Source-->
+<h2 id="open-source"><i class="fa fa-key"></i> Open Source</h2>
+
 
 ZONZA makes use of many Open Source libraries and components and often
 contributes improvements back to the community. We also selectively publish
