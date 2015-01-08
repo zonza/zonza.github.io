@@ -937,6 +937,10 @@ div.pull-right {
     margin-left: 0;
     content: none;
   }
+
+  ul {
+      padding-left: 0;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
