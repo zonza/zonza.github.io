@@ -4,7 +4,7 @@
 This repository contains public information about technical aspects of [ZONZA (http://zonza.tv)](http://zonza.tv) for its
 clients and also showcases our Open Source contributions.
 
-The site is served using Jekyll/[Github Pages](https://pages.github.com/) and can be viewed at http://howow.github.io
+The site is served using Jekyll/[Github Pages](https://pages.github.com/) and can be viewed at http://zonza.github.io
 
 ## Can I contribute?
 Absolutely! If you work for ZONZA/Hogarth, simply submit a pull request with your changes. Once merged into the master branch, Github will compile and servce the site automatically for us :thumbsup:!
