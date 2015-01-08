@@ -12,7 +12,7 @@ published: true
 <iframe width="100%" height="169"
 src="//www.youtube-nocookie.com/embed/SzkWuYD5ugw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 <p>
-Watch us discuss metadata at a panel discussion hosted by Ad-iD at the 4A's in
+Watch us discuss metadata at a panel discussion hosted by Ad-ID at the 4A's in
 their New York City offices to discuss Digital Asset Management and
 Advertising.
 </p>

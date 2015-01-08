@@ -752,15 +752,27 @@ ul {
 }
 
 #homelinks {
-  font-size: 1.4em;
   list-style: none;
   display: block;
   clear: both;
 }
 
+#homelinks a {
+  font-size: 1.4em;
+}
+
 #homelinks li .fa {
     display: block;
     margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ddd;
+    line-height: 100px;
+    border-radius: 50px;
+}
+
+#homelinks p {
+
 }
 
 #homelinks li {
