@@ -754,8 +754,11 @@ ul {
 
 #homelinks li {
     display: inline-block;
-    float: left;
     padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-align: top;
+    width: 150px;
 }
 
 ol {
@@ -835,6 +838,14 @@ footer a:hover {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+#homelinks li {
+    display: inline-block;
+    padding-right: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    text-align: top;
+    width: 100%;
+}
   .inner {
     width: 93%;
   }
