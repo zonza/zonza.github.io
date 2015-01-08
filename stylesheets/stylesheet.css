@@ -466,7 +466,7 @@ header h1 {
   color: #fff;
   letter-spacing: -1px;
 }
-header h1 span#zonza-logo {
+#zonza-logo {
   background: transparent url(../images/zonza-logo.png) 0 0 no-repeat;
   width: 170px;
   height: 33px;
