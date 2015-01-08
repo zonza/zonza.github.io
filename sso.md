@@ -10,11 +10,11 @@ which can simplify user management and enhance the end-user experience.
 
 #### Terminology
 
-| **SSO**   | <b>S</b>ingle <b>S</b>ign <b>O</b>n. An overarching term for centralized authentication where the user only has to sign in once to access many separate services |
+| **SSO**   | **S**ingle **S**ign **O**n. An overarching term for centralized authentication where the user only has to sign in once to access many separate services |
 | **SAML**  | A particular method for implementing SSO. A well supported standard. We use [SAML 2.0](http://en.wikipedia.org/wiki/SAML_2.0) |
-| **IDP**   | **I**dentity <b>P</b>rovider. This is the place that ZONZA will contact if using SSO to find out whether to grant users access |
-| **AD**    | **A**ctive <b>D</b>irectory. An organisational directory containing user information. Commonly used as the IDP |
-| **XML**   | <b>X</b>tensible <b>M</b>arkup <b>L</b>anguage, the format in which SAML metadata configuration is exchanged |
+| **IDP**   | **I**dentity **P**rovider. This is the place that ZONZA will contact if using SSO to find out whether to grant users access |
+| **AD**    | **A**ctive **D**irectory. An organisational directory containing user information. Commonly used as the IDP |
+| **XML**   | e**X**tensible **M**arkup **L**anguage, the format in which SAML metadata configuration is exchanged |
 
 ### How does it work?
 There are two options for user management in ZONZA:
