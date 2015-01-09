@@ -29,7 +29,7 @@ in.</p>
 <p>Notice how the user has the option of signing in with SSO or a regular
 ZONZA account.</p>
 <p><a href="http://zonza.tv">zonza.tv <i class="fa fa-external-link"></i></a></p>
-<p>The regular zonza login scren.</p>
+<p>The regular ZONZA login screen.</p>
 </div>
 
 There are two options for user management in ZONZA:

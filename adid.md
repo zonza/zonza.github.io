@@ -39,7 +39,7 @@ the Adobe XMP protocol.
 
 <div class="pull-right">
 <h3>Read the press release</h3>
-<a href="http://www.ad-id.org/news-announcements/zonza-first-digital-asset-management-platform-integrate-ad-industry%E2%80%99s-ad-id">ZONZA Is first Digital Asset Managent Platform to Integrate Ad-ID Standard</a>
+<a href="http://www.ad-id.org/news-announcements/zonza-first-digital-asset-management-platform-integrate-ad-industry%E2%80%99s-ad-id">ZONZA Is first Digital Asset Managent Platform to Integrate Ad-ID Standard <i class="fa fa-external-link"></i></a>
 <p>Sept 23, 2014</p>
 </p>
 </div>
