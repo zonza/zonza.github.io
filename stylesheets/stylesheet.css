@@ -762,7 +762,7 @@ ul {
   font-size: 1.4em;
 }
 
-#homelinks li .fa {
+#homelinks li a .fa {
     display: block;
     margin: auto;
     height: 100px;
@@ -770,6 +770,10 @@ ul {
     border: 1px solid #ddd;
     line-height: 100px;
     border-radius: 50px;
+}
+
+#homelinks li a:hover .fa {
+    background: #eee;
 }
 
 #homelinks p {
