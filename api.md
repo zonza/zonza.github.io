@@ -3,7 +3,6 @@ layout: default
 title: Public API
 icon: fa-code
 tags: learn
-permalink: /api
 ---
 
 

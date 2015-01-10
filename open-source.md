@@ -3,7 +3,6 @@ layout: default
 title: Open Source
 icon: fa-key
 tags: learn
-permalink: /open-source
 ---
 
 

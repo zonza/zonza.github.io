@@ -3,7 +3,6 @@ layout: default
 title: SSO Integration
 icon: fa-users
 tags: learn
-permalink: /sso
 ---
 
 ## <i class="fa {{page.icon}}"></i> {{page.title}}
