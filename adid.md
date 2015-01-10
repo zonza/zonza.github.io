@@ -3,6 +3,7 @@ layout: default
 title: Ad-ID Integration
 icon: fa-file-text-o
 tags: learn
+permalink: /ad-id
 ---
 
 ## <i class="fa {{page.icon}}"></i> {{page.title}}
