@@ -32,21 +32,21 @@ make API calls so if you do not see your API token then please contact your
 Account Director. Once you've got your credentials, simply start making HTTP
 requests using the appropriate headers, for example:
 
-    {% highlight bash %}
-    $ curl \
-        -H "Bork-Token: <YOUR_TOKEN>" \
-        -H "Bork-Username: <YOUR_USERNAME>" \
-        http://api.zonza.tv:8080/v0/item
-    {
-      "hits": "1",
-      "item": [
-          {
-            "id": "VX-336335",
-            "url": "http://api.zonza.tv:8080/v0/item/VX-336335"
-          }
-        ]
-    }
-    {% endhighlight %}
+{% highlight bash %}
+$ curl \
+    -H "Bork-Token: <YOUR_TOKEN>" \
+    -H "Bork-Username: <YOUR_USERNAME>" \
+    http://api.zonza.tv:8080/v0/item
+{
+  "hits": "1",
+  "item": [
+      {
+        "id": "VX-336335",
+        "url": "http://api.zonza.tv:8080/v0/item/VX-336335"
+      }
+    ]
+}
+{% endhighlight %}
 
 Check out example code at
 [https://github.com/zonza/zonza-api-examples](https://github.com/zonza/zonza-api-examples)
