@@ -1,9 +1,11 @@
 ---
 layout: default
-published: true
+title: Ad-ID Integration
+icon: fa-file-text-o
+tags: learn
 ---
 
-## <i class="fa fa-file-text-o"></i> Ad-ID Integration
+## <i class="fa {{page.icon}}"></i> {{page.title}}
 
 
 

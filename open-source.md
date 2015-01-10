@@ -1,10 +1,12 @@
 ---
 layout: default
-published: true
+title: Open Source
+icon: fa-key
+tags: learn
 ---
 
 
-## <i class="fa fa-key"></i> Open Source
+## <i class="fa {{page.icon}}"></i> {{page.title}}
 
 
 ZONZA makes use of many Open Source libraries and components and often

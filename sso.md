@@ -1,9 +1,11 @@
 ---
 layout: default
-published: true
+title: SSO Integration
+icon: fa-users
+tags: learn
 ---
 
-## <i class="fa fa-users"></i> SSO Integration
+## <i class="fa {{page.icon}}"></i> {{page.title}}
 
 ZONZA has the ability to integrate with a third-party authentication solution
 which can simplify user management and enhance the end-user experience.

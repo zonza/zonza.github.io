@@ -1,10 +1,12 @@
 ---
 layout: default
-published: true
+title: Public API
+icon: fa-code
+tags: learn
 ---
 
 
-<h2 id="public-api"><i class="fa fa-code"></i> Public API</h2>
+## <i class="fa {{page.icon}}"></i> {{page.title}}
 
 <div class="pull-right">
 <h3>Recent Use-cases</h3>
@@ -30,6 +32,7 @@ make API calls so if you do not see your API token then please contact your
 Account Director. Once you've got your credentials, simply start making HTTP
 requests using the appropriate headers, for example:
 
+    {% highlight bash %}
     $ curl \
         -H "Bork-Token: <YOUR_TOKEN>" \
         -H "Bork-Username: <YOUR_USERNAME>" \
@@ -43,6 +46,7 @@ requests using the appropriate headers, for example:
           }
         ]
     }
+    {% endhighlight %}
 
 Check out example code at
 [https://github.com/zonza/zonza-api-examples](https://github.com/zonza/zonza-api-examples)

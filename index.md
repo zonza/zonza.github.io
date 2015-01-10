@@ -1,10 +1,12 @@
 ---
 layout: default
-published: true
+title: ZONZA Engineering Center
 ---
 
-<h1>Leverage the full power of ZONZA</h1>
-<h2>Get started with one of our guides to start integrating your own systems.</h2>
+# Leverage the full power of ZONZA
+
+## Get started with one of our guides to start integrating your own systems.
+
 <ul id="homelinks">
     <li><a href="api.html"><i class="fa fa-fw fa-code fa-2x"></i> Public API</a>
         <p>Learn how to access and modify data in ZONZA programmatically</p>
