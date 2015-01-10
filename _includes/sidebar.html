@@ -2,10 +2,11 @@
 <aside id="sidebar">
     <h3>Learn</h3>
     <ul class="fa-ul">
-        <li><a href="api.html"><i class="fa fa-li fa-code"></i> Public API</a></li>
-        <li><a href="sso.html"><i class="fa fa-li fa-users"></i> SSO Integration</li></a>
-        <li><a href="adid.html"><i class="fa fa-li fa-file-text-o"></i> Ad-ID Integration</li></a>
-        <li><a href="open-source.html"><i class="fa fa-li fa-key"></i> Open Source</a></li>
+
+        {% assign menu = site.pages | where:'tags', 'learn'%}
+        {% for page in menu %}
+        <li><a href="{{page.url}}"><i class="fa fa-li {{page.icon}}"></i> {{page.title}}</a></li>
+        {% endfor %}
     </ul>
     <h3>Connect</h3>
     <ul class="fa-ul">
