@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Nothing to see here...
-redirect_from: "/experimental"
+redirect_from:
+    - /experimental/
 ---
 
 Date: {{page.date}}
