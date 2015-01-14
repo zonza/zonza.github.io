@@ -94,4 +94,39 @@ options.
 
 ### Dynamic Groups
 
-TODO
+Users who login to ZONZA using SSO for the first time are assigned to one more
+groups, allowing them to access assets and perform actions within the system.
+By default, this list of groups is the same for all SSO users who sign in
+which is not always ideal.
+
+For clients who wish to dynamically assign these groups using user details
+already stored in the IDP, ZONZA has the capability to use configurable
+mappings to determine these groups. These mappings specify which provided
+attributes correspond to which existing ZONZA groups.
+
+This means for example that you can send a `country` attribute in the SAML
+assertion after authenticating a user and we can configure mappings in ZONZA
+such that the user is assigned to a group specifically for users in that
+country.
+
+To configure these rules, your account manager will need to be provided with a
+list of the desired mappings. These mappings should consist of:
+
+* ZONZA Group Name
+* SAML Attribute Field Name
+* SAML Attribute Field Value
+
+e.g. 'ACME - EMEA', 'region', 'EMEA'
+
+You can specify as many of these mappings as needed. ZONZA will ignore any
+attributes that do not match the configured mappings. Users will be added to
+all groups that match. If no matches are found, the user is added to the
+default group.
+
+If multiple mappings match, ZONZA will use the first match to determine which
+group the user will ingest to.
+
+Each time a user logs in via SSO, ZONZA will re-check the SAML attributes and
+**add** any new groups. ZONZA will not remove any existing groups. This is
+useful if the useful for example if the users region changes and has been
+updated on the IDP.
