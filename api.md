@@ -56,6 +56,12 @@ protected). Contact your Account Director for credentials.
 
 As of Jan 2015, the API supports:
 
+<div class="pull-right">
+<h3>Screencast</h3>
+<iframe src="//player.vimeo.com/video/117852769" width="100%" height="169px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>A quick demonstration and explanation of the example script.</p>
+</div>
+
 ### Items:
 * Upload (non-accelerated, chunked)
 * Download (non-accelerated, chunked)
