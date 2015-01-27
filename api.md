@@ -54,15 +54,32 @@ Full documentation is available at
 [http://api.zonza.tv:8080/docs/](http://api.zonza.tv:8080/docs/) (password
 protected). Contact your Account Director for credentials.
 
+### Screencast
+
+<style>
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/117852769' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+
+### Features
+
 As of Jan 2015, the API supports:
 
-<div class="pull-right">
-<h3>Screencast</h3>
-<iframe src="//player.vimeo.com/video/117852769" width="100%" height="169px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p>A quick demonstration and explanation of the example script.</p>
-</div>
-
-### Items:
+#### Items:
 * Upload (non-accelerated, chunked)
 * Download (non-accelerated, chunked)
 * Metadata view and edit
@@ -79,10 +96,10 @@ As of Jan 2015, the API supports:
 * Deletion of assets, versions, transcodes
 * Support for multiple item versions
 
-### Jobs:
+#### Jobs:
 * Viewing the status of submitted ingests and other async tasks
 
-### Collections:
+#### Collections:
 * Create and view collections
 * Deleting collections
 * Item addition and removal
