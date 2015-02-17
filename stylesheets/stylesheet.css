@@ -459,6 +459,15 @@ a:hover {
   color: #2268b2;
 }
 
+a.demo {
+    background-color: #70c173;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
 header {
   padding-top: 40px;
   padding-bottom: 40px;
