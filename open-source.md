@@ -2,6 +2,7 @@
 layout: default
 title: Open Source
 icon: fa-key
+description: Find our public code and contributions. Pull requests welcome!
 tags: learn
 ---
 

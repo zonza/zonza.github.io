@@ -2,6 +2,7 @@
 layout: default
 title: Public API
 icon: fa-code
+description: Learn how to access and modify data in ZONZA programmatically
 tags: learn
 ---
 

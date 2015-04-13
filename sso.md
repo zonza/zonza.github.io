@@ -2,6 +2,7 @@
 layout: default
 title: SSO Integration
 icon: fa-users
+description: Ease user management by utilizing your existing authentication solution
 tags: learn
 ---
 
