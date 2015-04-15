@@ -649,7 +649,6 @@ h1 {
   font-size: 2.8em;
   font-weight: normal;
   color: #474747;
-  text-indent: 6px;
   letter-spacing: -1px;
 }
 
@@ -666,7 +665,6 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   color: #474747;
-  text-indent: 4px;
 }
 /*#main-content h2:before {*/
   /*padding-right: 0.3em;*/
@@ -682,7 +680,6 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   color: #474747;
-  text-indent: 3px;
 }
 
 /*#main-content h3:before {*/
@@ -698,7 +695,6 @@ h4 {
   font-size: 15px;
   font-weight: bold;
   color: #474747;
-  text-indent: 3px;
 }
 
 /*h4:before {*/
@@ -713,7 +709,6 @@ h5 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
-  text-indent: 3px;
 }
 /*h5:before {*/
   /*padding-right: 0.3em;*/
@@ -727,7 +722,6 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
-  text-indent: 3px;
 }
 /*h6:before {*/
   /*padding-right: 0.3em;*/
