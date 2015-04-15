@@ -58,7 +58,8 @@ most relevant content.
 <div class="pull-right">
 <h3>Best Practices</h3>
 <ul>
-<li>Supported image formats are JPEG and PNG; the recommended resolution is 1024 X 300 pixels</li>
+<li>Images should have an approximate ratio of 3:1</li>
+<li>Supported image formats are JPEG and PNG; the recommended minimum resolution is 1024 X 300 pixels</li>
 <li>Content should be within boundaries shown in the <a href="/resources/myzonza-carousel-specs-with-guides.psd"><i class="fa fa-cloud-download"></i> Photoshop template</a> to ensure it is visible.</li>
 </ul>
 </div>
