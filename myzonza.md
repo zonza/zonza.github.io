@@ -28,7 +28,7 @@ most relevant content.
 
 <ul class="fa-ul">
     <li>
-        <a href="/resources/My Zonza.pdf"><i class="fa fa-cloud-download"></i> Download the full Training Guide</a>
+        <a href="/resources/myzonza-training-guide.pdf"><i class="fa fa-cloud-download"></i> Download the full Training Guide</a>
     </li>
     <li>
         <a href="/resources/myzonza-carousel-specs-with-guides.psd"><i class="fa fa-cloud-download"></i> Download the carousel Photoshop template</a>
@@ -116,3 +116,8 @@ values.
 The creation of categories is details in the Training Guide. Editing can be
 restricted to any subset of users.
 
+<ul class="fa-ul">
+    <li>
+        <a href="/resources/myzonza-training-guide.pdf"><i class="fa fa-cloud-download"></i> Download the full Training Guide</a>
+    </li>
+</ul>
