@@ -3,7 +3,7 @@ layout: default
 title: My ZONZA
 icon: fa-th-large
 description: Easily promote content to users to leverage the value of your assets
-tags: learn
+tags:
 ---
 
 
