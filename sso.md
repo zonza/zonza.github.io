@@ -93,6 +93,34 @@ To get up and running, configure your IDP with our metadata and provide your
 Account Director with the details of your metadata and specified configuration
 options.
 
+### ADFS example setup
+
+We understand a lot of customers use Microsoft Active Directory (AD) internally and we
+have successfully worked with them to help get them setup with their ZONZA automated
+login. Below is example of the site rules that need to be added to ADFS to setup
+the integration with ZONZA SSO and map the attributes that are required. These allow
+users to automatically login and map their name and email address from AD to ZONZA.
+
+Get Claims:
+```
+c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/mail", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenName", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sn"), query = ";mail,givenName,sn;{0}", param = c.Value);
+```
+
+Mail: 
+```
+c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/mail"] => issue(Type = "urn:oid:0.9.2342.19200300.100.1.3", Value = c.Value,  Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
+```
+
+First name:
+```
+c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenName"] => issue(Type = "urn:oid:2.5.4.42", Value = c.Value, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
+```
+
+Surname:
+```
+c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sn"] => issue(Type = "urn:oid:2.5.4.4", Value = c.Value, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
+```
+
 ### Dynamic Groups
 
 Users who login to ZONZA using SSO for the first time are assigned to one more
