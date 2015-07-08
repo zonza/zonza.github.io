@@ -102,24 +102,24 @@ the integration with ZONZA SSO and map the attributes that are required. These a
 users to automatically login and map their name and email address from AD to ZONZA.
 
 Get Claims:
-```
+{% highlight bash %}
 c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/mail", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenName", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sn"), query = ";mail,givenName,sn;{0}", param = c.Value);
-```
+{% endhighlight %}
 
-Mail: 
-```
+Mail:
+{% highlight bash %}
 c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/mail"] => issue(Type = "urn:oid:0.9.2342.19200300.100.1.3", Value = c.Value,  Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
-```
+{% endhighlight %}
 
 First name:
-```
+{% highlight bash %}
 c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenName"] => issue(Type = "urn:oid:2.5.4.42", Value = c.Value, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
-```
+{% endhighlight %}
 
 Surname:
-```
+{% highlight bash %}
 c:[Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/sn"] => issue(Type = "urn:oid:2.5.4.4", Value = c.Value, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/attributename"] = "urn:oasis:names:tc:SAML:2.0:attrname-format:uri");
-```
+{% endhighlight %}
 
 ### Dynamic Groups
 
