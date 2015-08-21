@@ -156,6 +156,6 @@ If multiple mappings match, ZONZA will use the first match to determine which
 group the user will ingest to.
 
 Each time a user logs in via SSO, ZONZA will re-check the SAML attributes and
-**add** any new groups. ZONZA will not remove any existing groups. This is
-useful if the useful for example if the users region changes and has been
-updated on the IDP.
+**add** any new groups. ZONZA will then **remove** any current groups that
+have not been specified in the SAML attributes. This is useful if the users
+region changes and has been updated on the IDP.
