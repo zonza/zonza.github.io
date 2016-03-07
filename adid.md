@@ -3,7 +3,7 @@ layout: default
 title: Ad-ID Integration
 icon: fa-file-text-o
 description: Spend less time entering metadata by leveraging our Ad-ID syncing
-tags: learn
+tags: hidden
 ---
 
 ## <i class="fa {{page.icon}}"></i> {{page.title}}
