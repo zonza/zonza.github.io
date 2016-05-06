@@ -3,6 +3,7 @@ layout: default
 title: Public API
 icon: fa-code
 description: Learn how to access and modify data in ZONZA programmatically
+tags: learn
 ---
 
 
@@ -17,6 +18,8 @@ description: Learn how to access and modify data in ZONZA programmatically
 <li>Bulk-update metadata for specific assets</li>
 </ul>
 </div>
+
+**Update 2016: Usage of this API has been deprecated.**
 
 Programmatic access to many of ZONZAs features is possible via our public API.
 This allows clients to integrate ZONZA with other systems or perform reporting
